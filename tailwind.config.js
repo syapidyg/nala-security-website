@@ -5,7 +5,19 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        "primary-100": '#5C0C0D',
+        "secondary-100": "#D9CACA",
+        "text-color": "#000000",
+        "footer-color": "#A9848C"
+      },
+      fontFamily: {
+        primaryRegular: ["Regular"],
+        primaryBold: ["Bold"],
+        primaryBlack: ["Black"]
+      }
+    },
   },
   plugins: [],
 }

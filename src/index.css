@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face{
+    font-family: "Regular";
+    src: local("TitilliumWeb-Regular");
+    src: url("./assets/fonts/TitilliumWeb-Regular.ttf") format("truetype")
+}
+
+@font-face{
+    font-family: "Bold";
+    src: local("TitilliumWeb-Bold");
+    src: url("./assets/fonts/TitilliumWeb-Bold.ttf") format("truetype")
+}
+
+@font-face{
+    font-family: "Black";
+    src: local("TitilliumWeb-Black");
+    src: url("./assets/fonts/TitilliumWeb-Black.ttf") format("truetype")
+}
