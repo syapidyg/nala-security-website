@@ -41,7 +41,7 @@ function Navbar() {
               alt="Logo"
               className="w-14 inline-block items-center"
             />
-            <span className="font-primaryBold">NALA CONSULTING</span>
+            <span className="font-primaryBold">NALA SECURITY CONSULTING</span>
           </a>
 
           {/* Nav pour les grands ecrans */}
