@@ -32,6 +32,9 @@
 
     .activeClass{
         @apply bg-primary rounded-full text-white px-3 py-1
+    }    
+    .activeClass2{
+        @apply bg-secondary text-black  py-2 rounded-md px-3 font-semibold
     }
  }
 

@@ -1,7 +1,5 @@
-import React from "react";
 import Ellipse from "../../components/ellipse/Ellipse";
 import HeroSection from "./heroSection/HeroSection";
-import Header from "../../components/layouts/header/Header";
 import Partenaire from "./partenaire/Partenaire";
 import Navbar from "../../components/layouts/navbar/Navbar";
 import ServiceSection from "./serviceSection/ServiceSection";

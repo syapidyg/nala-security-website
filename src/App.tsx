@@ -1,10 +1,7 @@
-import Ellipse from "./components/ellipse/Ellipse";
-import HeroSection from "./pages/homepage/heroSection/HeroSection";
-import Header from "./components/layouts/header/Header";
-import HomePage from "./pages/homepage/HomePage";
 import React from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import AppRouter from "./routes/AppRouter";
 
 function App() {
   // const handleClick = (buttonName: string) => {
@@ -22,8 +19,7 @@ function App() {
   }, []);
   return (
     <div className="w-screen  ">
-      {/* <Button onClick={() => handleClick('Contactez nous')} >Nos </Button> */}
-      <HomePage />
+      <AppRouter />
     </div>
   );
 }

@@ -1,40 +1,41 @@
 import React from "react";
 import Logo from "../../../assets/NALAConsulting.png";
+import { Link, useLocation } from "react-router-dom";
 
 function Footer() {
   return (
     <footer className="bg-secondary rounded-lg  dark:bg-gray-900 font-primaryRegular px-4">
       <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
-          <a
-            href="https://flowbite.com/"
+          <Link
+            to="/"
             className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
           >
             <img src={Logo} className="h-14" alt="Nala Logo" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               NALA SECURITY CONSULTING
             </span>
-          </a>
+          </Link>
           <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-black sm:mb-0 dark:text-gray-400">
             <li>
-              <a href="#" className="hover:underline me-4 md:me-6">
-                About
-              </a>
+              <Link to="/" className="hover:underline me-4 md:me-6">
+                Home
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:underline me-4 md:me-6">
-                Privacy Policy
-              </a>
+              <Link to="/services" className="hover:underline me-4 md:me-6">
+                Services
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:underline me-4 md:me-6">
-                Licensing
-              </a>
+              <Link to="/realisations" className="hover:underline me-4 md:me-6">
+                Realisations
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:underline">
-                Contact
-              </a>
+              <Link to="/a-propos" className="hover:underline">
+                A Propos
+              </Link>
             </li>
           </ul>
         </div>
@@ -42,14 +43,14 @@ function Footer() {
         <div className=" sm:flex sm:items-center sm:justify-between">
           <span className="block text-sm text-black sm:text-center dark:text-black">
             © 2025{" "}
-            <a href="https://flowbite.com/" className="hover:underline">
+            <Link to="/" className="hover:underline">
               NALA SECURITY CONSULTING™
-            </a>
-            . All Rights Reserved.
+            </Link>
+            . Tous Droits Reservés.
           </span>
           <div className="  flex mt-4 sm:justify-center sm:mt-0">
             <a
-              href="#"
+              href="https://web.facebook.com/NalaConsulting"
               className="text-black hover:text-gray-900 dark:hover:text-white"
             >
               <svg
@@ -69,7 +70,7 @@ function Footer() {
             </a>
 
             <a
-              href="#"
+              href="https://www.linkedin.com/company/nala-security-consulting"
               className="text-black hover:text-gray-900 dark:hover:text-white ms-5"
             >
               <svg
