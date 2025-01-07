@@ -72,7 +72,7 @@ function ServiceSection() {
         </div>
       </div>
       <div className="flex  justify-center py-8">
-        <Button children={"Voir Plus"} />
+        <Button to="/services" children={"Voir Plus"} />
       </div>
     </div>
   );

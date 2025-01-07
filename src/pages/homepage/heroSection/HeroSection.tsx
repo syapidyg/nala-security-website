@@ -50,7 +50,7 @@ function HeroSection() {
             nous proposons des solutions et services de pointe, conçus pour
             répondre aux besoins actuels en cybersécurité.
           </p>
-          <Button children={"Nos services"} />
+          <Button to="/services" children={"Nos services"} />
         </div>
       </div>
     </div>

@@ -36,7 +36,7 @@ function AproposSection() {
                 puissiez avancer en toute sérénité.
               </p>
               <div className="py-5">
-                <Button children={"A Propos de nous"} />
+                <Button to="/a-propos" children={"A Propos de nous"} />
               </div>
             </div>
           </div>
