@@ -68,7 +68,7 @@ const AproposPage = () => {
           <div data-aos="fade-right">
             <h3 className="text-2xl font-bold mb-4">Point de vue extérieur</h3>
             <p className="text-white leading-relaxed">
-              L''Afrique est un continent en phase de développement rapide avec
+              L'Afrique est un continent en phase de développement rapide avec
               une économie numérique croissante, cela implique de nouveaux défis
               et des risques. La cybercriminalité tout aussi en progression
               permanente, les organisations et les gouvernements doivent donc
