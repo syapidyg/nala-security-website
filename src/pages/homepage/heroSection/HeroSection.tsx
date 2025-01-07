@@ -1,6 +1,6 @@
-import Button from "../../../components/button/Button";
 import "./HeroSection.css";
 import Cadenas from "../../../assets/logo/cadenas.png";
+import Button from "../../../components/button/Button";
 
 // function HeroSection() {
 //   return (
