@@ -1,8 +1,5 @@
-import React from "react";
 import Button from "../../../components/button/Button";
-import { BookOpenIcon } from "@heroicons/react/24/solid";
 import "./HeroSection.css";
-import { Carousel } from "flowbite-react";
 import Cadenas from "../../../assets/logo/cadenas.png";
 
 // function HeroSection() {

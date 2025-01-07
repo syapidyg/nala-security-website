@@ -1,6 +1,5 @@
-import React from "react";
 import Logo from "../../../assets/NALAConsulting.png";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (

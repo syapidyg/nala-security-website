@@ -1,4 +1,3 @@
-import React from "react";
 import Decouverte from "../../../assets/logo/decouverte.png";
 import Button from "../../../components/button/Button";
 
