@@ -1,6 +1,6 @@
 import "./HeroSection.css";
 import Cadenas from "../../../assets/logo/cadenas.png";
-import Button from "../../../components/button/Button";
+// import Button from "../../../components/button/Button";
 
 // function HeroSection() {
 //   return (
@@ -47,7 +47,7 @@ function HeroSection() {
             nous proposons des solutions et services de pointe, conçus pour
             répondre aux besoins actuels en cybersécurité.
           </p>
-          <Button to="/services" children={"Nos services"} />
+          {/* <Button to="/services" children={"Nos services"} /> */}
         </div>
       </div>
     </div>

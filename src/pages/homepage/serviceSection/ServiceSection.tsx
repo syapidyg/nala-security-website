@@ -3,7 +3,7 @@ import {
   BuildingOfficeIcon,
   KeyIcon,
 } from "@heroicons/react/24/solid";
-import Button from "../../../components/button/Button";
+// import Button from "../../../components/button/Button";
 
 function ServiceSection() {
   const services = [
@@ -70,9 +70,9 @@ function ServiceSection() {
           ))}
         </div>
       </div>
-      <div className="flex  justify-center py-8">
+      {/* <div className="flex  justify-center py-8">
         <Button to="/services" children={"Voir Plus"} />
-      </div>
+      </div> */}
     </div>
   );
 }

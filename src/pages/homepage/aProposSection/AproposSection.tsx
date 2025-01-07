@@ -1,5 +1,5 @@
 import Decouverte from "../../../assets/logo/decouverte.png";
-import Button from "../../../components/button/Button";
+// import Button from "../../../components/button/Button";
 
 function AproposSection() {
   return (
@@ -34,9 +34,9 @@ function AproposSection() {
                 et renforçons la résilience de vos systèmes pour que vous
                 puissiez avancer en toute sérénité.
               </p>
-              <div className="py-5">
+              {/* <div className="py-5">
                 <Button to="/a-propos" children={"A Propos de nous"} />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
