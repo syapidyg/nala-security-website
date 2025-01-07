@@ -9,7 +9,6 @@ function Navbar() {
   const [isSticky, setIsSticky] = React.useState(false);
   const location = useLocation();
 
-
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -54,9 +53,6 @@ function Navbar() {
               <Link
                 key={index}
                 to={item.path}
-                spy={true}
-                smooth={true}
-                offset={-100}
                 className={`block text-base hover:text-primary-200 first:font-medium  ${
                   location.pathname === item.path ? "activeClass" : ""
                 }`}
@@ -86,14 +82,10 @@ function Navbar() {
                 <Link
                   key={index}
                   to={item.path}
-                  spy={true}
-                  smooth={true}
-                  offset={-100}
                   className={`block text-base hover:text-primary-200 first:font-medium  ${
                     location.pathname === item.path ? "activeClass2" : ""
-                  }`}                >
-                  {item.link}
-                </Link>
+                  }`}
+                ></Link>
               ))}
             </ul>
           )}
